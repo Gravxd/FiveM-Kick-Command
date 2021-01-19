@@ -29,3 +29,6 @@ Logs the player's identifiers. (Steam, License + Discord)
 ![Discord!](https://i.imgur.com/tGnmSs3.png)
 
 ![Kick Message!](https://i.imgur.com/4SeA3uo.png)
+
+
+**Note:** The script was revamped using one of Badger's resources (https://badger.store)
