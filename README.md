@@ -1,6 +1,8 @@
 # FiveM-Kick-Command
 Simple command that lets you kick players from chat! [PERMISSION BASED]
 
+**Written in lua**
+
 `Setup`
 
 **1)** Go to config.lua --> Fill in all of the fields required
