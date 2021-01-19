@@ -34,3 +34,5 @@ Logs the player's identifiers. (Steam, License + Discord)
 
 
 **Note:** The script was revamped using one of Badger's resources (https://badger.store)
+
+Also, I would like to thank Noah for his help! https://github.com/NoahtheDeveloper
