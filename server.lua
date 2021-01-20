@@ -23,11 +23,11 @@ RegisterCommand("kick", function(source, args, rawCommand)
         --print('^1Script Error: ^9[GravKick] ^5Please provide a valid prefix in config.lua ^1(Script will not work without it!)^0')
         --return;
     end
-    if IsPlayerAceAllowed(source, "command") == false then
+    if IsPlayerAceAllowed(source, "gravKick") == false then
         TriggerClientEvent('chatMessage', source, "^9[^1" .. Config.messagePrefix .. "^9] ^1Invalid perms! ^9- ^5If this is a mistake, refer to: https://github.com/Gravxd/FiveM-Kick-Command")
         return;
     end
-    if IsPlayerAceAllowed(source, "command") then
+    if IsPlayerAceAllowed(source, "gravKick") then
         sm = stringsplit(rawCommand, " ");
         if #args < 2 then
     	    TriggerClientEvent('chatMessage', source, "^9[^1" .. Config.messagePrefix .. "^9] ^1Invalid! Usage: ^5/kick <id> <reason>")
